@@ -16,8 +16,8 @@ The first step was to design the **Entity-Relationship (ER) Diagram** for the da
 #### Entities:
 - **Orders** 🛍️
 - **Customers** 👥
-- **Products** 🏷️
-- **Shipments** 🚚
+- **Time** ⏱️
+- **Location** 🗺️
 - **Sales** 💰
 
 #### Relationships:
