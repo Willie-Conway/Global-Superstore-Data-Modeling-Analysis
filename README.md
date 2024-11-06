@@ -127,14 +127,8 @@ Interactivity was enabled by using filters. For example, clicking on a specific 
 ![Interactive Dashboard](https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/c29491f513696034c5e1f84bcf15971fb5506cba/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Screenshot%202024-09-22%20231109.png)
 
 
-<div>
-    <a href="https://www.loom.com/share/e74c2e9d68dc461a92feec2ad3997318">
-      <p>Global Super Store - Interactive Dashboard - Watch Video</p>
-    </a>
-    <a href="https://www.loom.com/share/e74c2e9d68dc461a92feec2ad3997318">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/e74c2e9d68dc461a92feec2ad3997318-a22232212d972304-full-play.gif">
-    </a>
-  </div>
+![Interactive Dashboard](https://www.loom.com/share/e74c2e9d68dc461a92feec2ad3997318?sid=36c27074-ad86-4cf7-ada9-b1995f2acbd0)
+
 
 ---
 
