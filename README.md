@@ -76,8 +76,7 @@ The first interactive visualization was a **Map Chart** showing the sales perfor
 
 This map chart gave a visual representation of sales distribution across states, highlighting regions with higher or lower performance.
 
-#### Map Chart Example:
-*Include a screenshot of the map chart* 🌍
+#### Map Chart🌍:
 
 ![Map chart](https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/fb93b9f509e02ae3d1b09d69860fd745197bb707/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Screenshot%202024-09-22%20223609.png)
 
