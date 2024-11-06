@@ -92,8 +92,9 @@ Next, I created a **Bubble Chart** to visualize **profits by state**, with addit
 
 This chart helped identify regions with the highest and lowest profit margins and allowed users to explore the data interactively.
 
-#### Bubble Chart Example:
-*Include a screenshot of the bubble chart* 🫧
+#### Bubble Chart🫧:
+
+![Bubble chart](https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/c29491f513696034c5e1f84bcf15971fb5506cba/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Screenshot%202024-09-22%20225037.png)
 
 ---
 
@@ -106,8 +107,9 @@ To analyze **sales trends over time**, I created a **Line Chart** that focused o
 
 The line chart helped to visualize how sales performed over time, with a clear focus on the highest-performing states.
 
-#### Sales Trend Chart Example:
-*Include a screenshot of the sales trend chart* 📊
+#### Sales Trend Chart📊:
+
+![Sales Trend chart](https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/c29491f513696034c5e1f84bcf15971fb5506cba/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Screenshot%202024-09-22%20224817.png)
 
 ---
 
@@ -120,8 +122,10 @@ The final step was to combine all the visualizations into an **interactive dashb
 
 Interactivity was enabled by using filters. For example, clicking on a specific state in the map chart dynamically updated both the bubble chart and line chart, allowing for a comprehensive view of sales performance.
 
-#### Interactive Dashboard Example:
-*Include a screenshot of the interactive dashboard* 🖥️
+#### Interactive Dashboard🖥️:
+
+![Interactive Dashboard](https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/c29491f513696034c5e1f84bcf15971fb5506cba/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Screenshot%202024-09-22%20231109.png)
+
 
 ---
 
