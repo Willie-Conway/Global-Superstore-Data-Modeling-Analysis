@@ -27,8 +27,8 @@ The first step was to design the **Entity-Relationship (ER) Diagram** for the da
 
 I used **MySQL Workbench** to create the ER diagram and normalized the database schema to the **third normal form (3NF)** for efficiency.
 
-#### ER Diagram Example:
-*Include an image of your ER diagram here* 🔍
+#### ER Diagram🔍 :
+
 ![ER Diagram](https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/b9cb01d08d75e80f0b60579968585e5a7a16fc38/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/ER%20Diagram.png)
 
 
