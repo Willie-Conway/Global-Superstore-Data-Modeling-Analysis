@@ -140,7 +140,7 @@ This project demonstrated my ability to design efficient data models, implement 
 ## 🛠️ Tools and Technologies Used
 - **MySQL Workbench**: For designing and implementing the database schema. 💻
 - **Tableau**: For creating interactive visualizations and dashboards. 📊
-- **SQL**: For querying and manipulating the data. 🧑‍💻
+- **SQL**: For querying and manipulating the data. 👨🏿‍💻
   
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
