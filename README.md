@@ -129,10 +129,14 @@ Interactivity was enabled by using filters. For example, clicking on a specific 
 
 # 📹 Demo Video
 
-Watch the demo video showing how the project works:
-
-[Watch the demo video on Loom](https://www.loom.com/embed/e74c2e9d68dc461a92feec2ad3997318?sid=40cd82b7-61e8-468e-8608-cde035893b4d)
-
+<div>
+    <a href="https://www.loom.com/share/e74c2e9d68dc461a92feec2ad3997318">
+      <p>Global Super Store - Interactive Dashboard - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/e74c2e9d68dc461a92feec2ad3997318">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/e74c2e9d68dc461a92feec2ad3997318-a22232212d972304-full-play.gif">
+    </a>
+  </div>
 
 
 ---
