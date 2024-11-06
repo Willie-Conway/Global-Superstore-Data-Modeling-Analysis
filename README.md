@@ -29,7 +29,7 @@ I used **MySQL Workbench** to create the ER diagram and normalized the database 
 
 #### ER Diagram Example:
 *Include an image of your ER diagram here* 🔍
-![ER Diagram](Screenshots/Screenshot 2024-09-22 225533.png)
+![ER Diagram](Screenshots/Screenshot-2024-09-22-225533.png)
 
 
 ---
