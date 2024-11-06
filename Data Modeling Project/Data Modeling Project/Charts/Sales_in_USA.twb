@@ -1,0 +1,4470 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0807.0327                               -->
+<workbook original-version='18.1' source-build='2024.2.2 (20242.24.0807.0327)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='orders (global_superstore_db)' inline='true' name='federated.177mwb10bkgcb315f3cla0wowr42' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='localhost' name='mysql.1j9xkub1hg7fqe1f11fhn0fq2ivy'>
+            <connection class='mysql' dbname='global_superstore_db' odbc-native-protocol='' one-time-sql='' port='3306' server='localhost' source-charset='' username='root' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='mysql.1j9xkub1hg7fqe1f11fhn0fq2ivy' name='orders' table='[orders]' type='table'>
+          <columns>
+            <column datatype='date' date-parse-format='dd-MM-yyyy' name='Order Date' />
+            <column datatype='date' date-parse-format='dd-MM-yyyy' name='Ship Date' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='mysql.1j9xkub1hg7fqe1f11fhn0fq2ivy' name='orders' table='[orders]' type='table'>
+          <columns>
+            <column datatype='date' date-parse-format='dd-MM-yyyy' name='Order Date' />
+            <column datatype='date' date-parse-format='dd-MM-yyyy' name='Ship Date' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Row ID</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Row ID]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>Row ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Order ID]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>Order ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>45</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Order Date]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>Order Date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ship Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Ship Date]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>Ship Date</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ship Mode</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Ship Mode]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>Ship Mode</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>45</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Customer ID]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>Customer ID</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>10</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Customer Name]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>Customer Name</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>45</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Segment</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Segment]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>Segment</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>45</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>45</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>45</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>45</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Postal Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Postal Code]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>Postal Code</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>50</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Market</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Market]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>Market</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>10</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>45</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Product ID]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>Product ID</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>45</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>45</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sub-Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sub-Category]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>Sub-Category</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>45</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Product Name]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>Product Name</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>255</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[Sales]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>Sales</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Quantity</remote-name>
+            <remote-type>3</remote-type>
+            <local-name>[Quantity]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>Quantity</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_INTEGER&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_SLONG&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Discount</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[Discount]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>Discount</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <scale>2</scale>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Profit</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[Profit]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>Profit</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <scale>4</scale>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shipping Cost</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[Shipping Cost]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>Shipping Cost</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>10</precision>
+            <scale>2</scale>
+            <contains-null>false</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_DECIMAL&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_NUMERIC&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Priority</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Order Priority]</local-name>
+            <parent-name>[orders]</parent-name>
+            <remote-alias>Order Priority</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>10</width>
+            <contains-null>false</contains-null>
+            <collation flag='0' name='LROOT' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;SQL_WVARCHAR&quot;</attribute>
+              <attribute datatype='string' name='DebugWireType'>&quot;SQL_C_WCHAR&quot;</attribute>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[orders_3331B60722C349EC851C482DEEF4D95F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='date' datatype-customized='true' name='[Order Date]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Postal Code]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <column datatype='integer' name='[Row ID]' role='dimension' type='ordinal' />
+      <column datatype='date' datatype-customized='true' name='[Ship Date]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='orders' datatype='table' name='[__tableau_internal_object_id__].[orders_3331B60722C349EC851C482DEEF4D95F]' role='measure' type='quantitative' />
+      <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+      <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+      <group hidden='true' name='[Inclusions (Country,State)]' name-style='unqualified' user:auto-column='include'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Country:nk]' />
+          <groupfilter function='level-members' level='[none:State:nk]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='10000' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:State:nk]' palette='tableau-20' type='palette'>
+            <map to='#17becf'>
+              <bucket>&quot;Maryland&quot;</bucket>
+            </map>
+            <map to='#17becf'>
+              <bucket>&quot;South Carolina&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;Alabama&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;Michigan&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;Tennessee&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;Colorado&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;Montana&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;Virginia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Ad Dawhah&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Al Minya&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Andijan&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Ardabil&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Asyut&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Baja California&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Basilicata&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Bihar&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Brasov&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Cajamarca&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Catalonia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Chiapas&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Coimbra&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Daegu&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Diyarbakir&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Elazig&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Federal District&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Greater Poland&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Haifa&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Hims&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Iasi&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Ishikawa&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Jinja&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Kandahar&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Kerman&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Kirovohrad&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Lacs&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Limpopo&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Luhans&apos;k&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Manisa&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Masovia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Meta&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Moquegua&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Namur&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Niari&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Northern Territory&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Olomouc&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Pahang&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Piedmont&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Provincia de Buenos Aires&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Rabat-Salé-Zemmour-Zaer&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Rondônia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;San Pedro de Macorís&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Saxony-Anhalt&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Sidi Bel Abbes&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;South Australia&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Tambov&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Thies&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Ucayali&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Vargas&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Vrancea&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Yambol&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Zhejiang&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;&apos;Ajman&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Al Fayyum&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Aqmola&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Ashanti&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Ayacucho&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Bangkok&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Belgorod&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Bolu&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Burgas&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Canterbury&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Chaguanas&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Chuquisaca&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Corrientes&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Diana&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Durrës&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Espírito Santo&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Fujian&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Gombe&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Guerrero&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Haute-Matsiatra&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Hrodna&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Imo&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Jawa Tengah&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Kahramanmaras&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Kastamonu&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Khyber Pakhtunkhwa&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Kymenlaakso&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Liaoning&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Los Rios&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Manabi&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Marlborough&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Mecklenburg-Vorpommern&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Mykolayiv&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Nevsehir&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;O&apos;Higgins&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Oslo&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Perak&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Pomerania&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Qostanay&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Rio Grande do Sul&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Salta&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Santo Domingo&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Shanxi&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Sliven&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;St. Gallen&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Ta&apos;izz&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Tekirdag&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Tottori&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Uttarakhand&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Vilnius&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Western Visayas&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Zagrebacka&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Abruzzi&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Al Jawf&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Anambra&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Arad&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Astrakhan&apos;&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Bacau&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Barahona&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Benue&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Boyacá&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Bushehr&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Carinthia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Chelyabinsk&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Cluj&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Distrito Capital&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Eastern Cape&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Extremadura&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Galicia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Grand Casablanca&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Gunma&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Heilongjiang&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Huila&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Jharkhand&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Kaliningrad&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Kayes&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Kilimanjaro&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;La Paz&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Lima&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Luanda&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Manica&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Mato Grosso do Sul&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Melilla&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Murcia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Nakhon Ratchasima&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;New South Wales&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;North Rhine-Westphalia&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Ouémé&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Phnom Penh&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Prague&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Quezaltenango&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Rivers&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;San Fernando&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Saskatchewan&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Shumen&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Sokoto&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Styria&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Táchira&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Ternopil&apos;&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Tripura&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Valle del Cauca&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Vladimir&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Yogyakarta&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Zaporizhzhya&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Adiyaman&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Alagoas&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Anseba&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Arica y Parinacota&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Atlántida&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Bali&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Bauchi&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Bishkek&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Brittany&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Caras-Severin&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Central Equatoria&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Chinandega&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Cross River&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Dar Es Salaam&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Dolj&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Entre Ríos&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Flemish Brabant&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Groningen&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Guangdong&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Halland&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Hokkaido&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Ica&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Ivano-Frankivsk&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Jujuy&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Kara&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Khartoum&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Konya&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Lambayeque&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Ljubljana&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Mara&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Matanzas&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Midi-Pyrénées&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Moscow&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Navarra&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Ninawa&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Novgorod&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Oran&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Pará&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Plateaux&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Puno&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Red Sea&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Sabah&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Santa Ana&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Semnan&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Sinaloa&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;South Denmark&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Sulawesi Utara&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Taranaki&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Tipaza&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Upper Austria&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Vaud&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Yazd&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Zulia&quot;</bucket>
+            </map>
+            <map to='#7f7f7f'>
+              <bucket>&quot;Kansas&quot;</bucket>
+            </map>
+            <map to='#7f7f7f'>
+              <bucket>&quot;Oklahoma&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Adamaoua&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Al Qadisiyah&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Anhui&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Ardahan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Atacama&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Baja California Sur&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Basque Country&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Bihor&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Bremen&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Calabarzon&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Catamarca&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Chiba&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Cojedes&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Daejeon&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Djelfa&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Elbasan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Federation of Bosnia and Herzegovina&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Gaziantep&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Hainan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Hirat&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;iauliai&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Isla de la Juventud&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Jizan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Kankan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Kermanshah&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Kirsehir&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Laghouat&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Lisboa&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Lusaka&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Manitoba&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Matruh&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;México&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Moravian-Silesian&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Nangarhar&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Niassa&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Northland&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Ondo&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Panama&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Pinar del Río&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Puducherry&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Rajasthan&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Roraima&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;San Salvador&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Schleswig-Holstein&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Siirt&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Sud-Ouest&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Suhaj&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Tamil Nadu&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Ulaanbaatar&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Värmland&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Vratsa&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Yangon&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Zhytomyr&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;Idaho&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;New York&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Abuja Capital Territory&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Al Madinah&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Ancash&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Aragua&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Asturias&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Baden-Württemberg&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Bas-Congo&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Berlin&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Braga&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Buskerud&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Casanare&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Cherkasy&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Coahuila&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Distrito Federal&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Ebonyi&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Extreme-Nord&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Galway&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Grand Gedeh&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Gyeonggi&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Henan&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Hunan&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Irbid&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Jiangsu&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Kaluga&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Kayseri&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Kilis&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;La Rioja&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Lima (city)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Lublin&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Manicaland&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Masaya&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Mendoza&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Montevideo&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Namangan&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;North Lebanon&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;North-West&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Oita&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Piauí&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Prahova&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Quindío&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Rivne&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;San Juan&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Satu Mare&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sibiu&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Sonora&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Suceava&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Tadla-Azilal&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Tete&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Tunis&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Vallee Du Bandama&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Vlorë&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Xinjiang Uygur&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Zealand&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;Florida&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;New Jersey&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;Wyoming&quot;</bucket>
+            </map>
+            <map to='#98df8a'>
+              <bucket>&quot;Connecticut&quot;</bucket>
+            </map>
+            <map to='#98df8a'>
+              <bucket>&quot;Nebraska&quot;</bucket>
+            </map>
+            <map to='#98df8a'>
+              <bucket>&quot;Washington&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Al Basrah&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Alsace&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Aomori&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Arusha&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Auvergne&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Bandundu&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Bejaia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Bolivar&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Bulawayo&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Canelones&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Ceuta&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Chongqing&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Córdoba&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Dhaka&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Dublin&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Eskisehir&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Friuli-Venezia Giulia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Goiás&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Guelma&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Hatay&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Hovedstaden&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Jammu and Kashmir&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Kafr Ash Shaykh&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Kasai-Oriental&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Khulna&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Kwara&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;León&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Lorraine&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Malatya&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Maritime&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Mazandaran&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Misratah&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Mures&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Neuquén&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Nyanza&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Osh&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Pazardzhik&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Poitou-Charentes&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Qinghai&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Rio de Janeiro&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Saitama&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Santiago de Cuba&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Shandong&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Skåne&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Southland&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Sylhet&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Tbilisi&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Tokyo&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Utrecht&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Vienna&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Western Australia&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Yunnan&quot;</bucket>
+            </map>
+            <map to='#9edae5'>
+              <bucket>&quot;Massachusetts&quot;</bucket>
+            </map>
+            <map to='#9edae5'>
+              <bucket>&quot;South Dakota&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;&apos;Amman&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Al Gharbiyah&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Amazonas&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Aquitaine&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Aydin&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bangui&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Bengkulu&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Borgou&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Burgundy&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Caquetá&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Champagne-Ardenne&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Cidade De Maputo&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Corsica&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Diffa&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Düzce&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Est&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Fukui&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Gorj&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Guizhou&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Hawke&apos;s Bay&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Huambo&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Jawa Timur&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Kalimantan Barat&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Katanga&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Kiên Giang&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;L&apos;viv&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Liberec&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Magallanes y Antártica Chilena&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Managua&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Marrakech-Tensift-El Haouz&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Medea&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Monagas&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Nagano&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;North Brabant&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Oaxaca&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Osmaniye&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Peravia&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Porto&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Quebec&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Río Negro&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Salzburg&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;São Paulo&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Shinyanga&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Södermanland&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Stara Zagora&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Tabasco&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Tel Aviv&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Trabzon&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Uusimaa&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Vinnytsya&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;White Nile&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Zambezia&quot;</bucket>
+            </map>
+            <map to='#aec7e8'>
+              <bucket>&quot;Arizona&quot;</bucket>
+            </map>
+            <map to='#aec7e8'>
+              <bucket>&quot;Minnesota&quot;</bucket>
+            </map>
+            <map to='#aec7e8'>
+              <bucket>&quot;Texas&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Akwa Ibom&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Almaty&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Antwerp&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Artemisa&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Auckland&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Bamako&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Beijing&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Boeny&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Buenos Aires&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Campeche&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Centre&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Chocó&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Copperbelt&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Delta&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Drenthe&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Escuintla&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Free State&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Gisborne&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Guatemala&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Harjumaa&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Hordaland&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Ile-de-France&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Jalisco&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Kabul&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Kars&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Khomas&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Kumanovo&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Lazio&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Loreto&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Makkah&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Marche&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Mayabeque&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Miranda&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Negeri Sembilan&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Nord-Ouest&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Nusa Tenggara Barat&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Oruro&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Pays de la Loire&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Podgorica&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Qazvin&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Riau&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Saint Michael&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Santander&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Sevastopol&apos;&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Sistan Va Baluchestan&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;South Kivu&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Sumy&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Tasmania&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Tochigi&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Usti nad Labem&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Vest-Agder&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Yobe&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Yoro&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Aceh&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Al Marqab&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Andalusía&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Arauca&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Asunción&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Baghdad&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Basel-Stadt&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Bern&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Braila&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Buzau&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Castile and León&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Chernihiv&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Coast&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Cuscatlán&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Edirne&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;F.C.T.&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Gangwon&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Granma&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Gyeongsangnam&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Hesse&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Hunedoara&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Iringa&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Jiangxi&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Kampala&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Kharkiv&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Kindia&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;La Romana&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Limburg&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Lubusz&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Maniema&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Maseru&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Mérida&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Montserrado&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Namibe&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Newfoundland&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Northern&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Okayama&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Overijssel&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Primorsko-Goranska&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Quintana Roo&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Rize&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;San Luis&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Savanes&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Sichuan&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Sonsonate&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Sucre&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Taipei City&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Tuscany&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Valparaíso&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Volyn&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Yalova&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Zeeland&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Afyonkarahisar&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Alberta&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Antalya&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Ashgabat&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Atlantique&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Balikesir&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Bavaria&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Bissau&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Brussels&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Callao&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Central Jutland&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Chiriquí&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Cundinamarca&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Dayr Az Zawr&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Donetsk&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Enugu&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Gauteng&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Gezira&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Guangxi&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Hamadan&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Holguín&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Isparta&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Ivanovo&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Junín&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Karaman&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Khatlon&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Korçë&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Languedoc-Roussillon&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Lodz&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Magdalena&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Mato Grosso&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Mie&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Mostaganem&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Nayarit&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Ningxia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Novosibirsk&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Ordu&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Paraíba&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Pleven&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Pwani&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Rhineland-Palatinate&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Saga&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Santa Catarina&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Seoul&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Sindh&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;South Dublin&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Sumatera Barat&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Tarapacá&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Tizi Ouzou&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Upper Normandy&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Veneto&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Yevrey&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Zürich&quot;</bucket>
+            </map>
+            <map to='#bcbd22'>
+              <bucket>&quot;Louisiana&quot;</bucket>
+            </map>
+            <map to='#bcbd22'>
+              <bucket>&quot;Pennsylvania&quot;</bucket>
+            </map>
+            <map to='#c49c94'>
+              <bucket>&quot;Illinois&quot;</bucket>
+            </map>
+            <map to='#c49c94'>
+              <bucket>&quot;North Carolina&quot;</bucket>
+            </map>
+            <map to='#c5b0d5'>
+              <bucket>&quot;Georgia&quot;</bucket>
+            </map>
+            <map to='#c5b0d5'>
+              <bucket>&quot;New Mexico&quot;</bucket>
+            </map>
+            <map to='#c7c7c7'>
+              <bucket>&quot;Kentucky&quot;</bucket>
+            </map>
+            <map to='#c7c7c7'>
+              <bucket>&quot;Oregon&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Aichi&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Alger&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Antioquia&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Assam&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Atsimo-Andrefana&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Balti&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Bay of Plenty&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Bistrita-Nasaud&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Bryansk&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Camagüey&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Central Luzon&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Chisinau&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Constanta&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Dix-Huit Montagnes&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Donga&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Equateur&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Franche-Comté&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Gharb-Chrarda-Béni Hssen&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Guantánamo&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Hamburg&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Homyel&apos;&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Igdir&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Izmir&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Kabardino-Balkariya&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Karbala&apos;&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Kherson&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Kordestan&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Lara&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Lombardy&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Maharashtra&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Maramures&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Minas Gerais&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Mpumalanga&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Neamt&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Nitra&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Nueva Esparta&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Ouest&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Parana&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Plovdiv&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Qaraghandy&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Rogaland&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Saida&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Santa Cruz&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Sergipe&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Singapore&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;South Holland&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Sumatera Selatan&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Tarija&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Tlemcen&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Uppsala&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Veracruz&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;West Bengal&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Al Bahr Al Ahmar&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Almaty City&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Anzoátegui&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Artibonite&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Australian Capital Territory&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Banaadir&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Beirut&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Bogota&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Bujumbura-Mairie&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Canakkale&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Cesar&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Choluteca&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Cordillera&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Denizli&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Duarte&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Esfahan&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Friesland&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Giurgiu&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Guayas&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Haryana&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Hormozgan&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;ilina&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Jambi&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Kaduna&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Kasai-Occidental&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Khorezm&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Kutahya&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Lebap&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Lori&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Malanje&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Mardin&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Maysan&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Misiones&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Nelson&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Nord-Pas-de-Calais&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Nusa Tenggara Timur&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Osaka&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Paysandú&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Podlaskie&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Qina&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Rift Valley&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Saint-Louis&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Santiago&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Shaanxi&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Sivas&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Southern&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Surxondaryo&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Taza-Al Hoceima-Taounate&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Tokat&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Varna&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Victoria&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Western&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Yucatán&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;Delaware&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;Nevada&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;West Virginia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Al Buhayrah&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Amapá&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Apulia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Ash Sharqiyah&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Aveiro&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Banghazi&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Bekes&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Bolívar&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Bur Sa&apos;id&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Cantabria&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Chaco&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Chubut&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Cork&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Dhi Qar&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Durango&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Espaillat&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Fromager&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Golestan&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Guelmim-Es Semara&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Haut-Sassandra&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Hradec Kralove&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Imereti&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Jawa Barat&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Kagawa&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Kassala&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Khuzestan&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Kwazulu-natal&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Lesser Poland&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Los Lagos&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Maluku&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Markazi&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Mbeya&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Muharraq&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Mwanza&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Norte de Santander&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Nzérékoré&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Osjecko-Baranjska&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Picardy&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Poltava&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Qom&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Rio Grande do Norte&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Salah Ad Din&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Santiago del Estero&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Shanghai&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Skikda&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Splitsko-Dalmatinska&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;T?nh C?n Th?&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Tehran&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Tolima&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Uttar Pradesh&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Villa Clara&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Western Cape&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Zacatecas&quot;</bucket>
+            </map>
+            <map to='#dbdb8d'>
+              <bucket>&quot;Maine&quot;</bucket>
+            </map>
+            <map to='#dbdb8d'>
+              <bucket>&quot;Rhode Island&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Adamawa&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Al Qahirah&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Ankara&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Arequipa&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Atakora&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Baki&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Batman&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Bingol&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Brest&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Calabria&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Ceará&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Chihuahua&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Colima&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Dagestan&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Djibouti&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Emilia-Romagna&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Fès-Boulemane&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Gelderland&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Guadeloupe&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Hainaut&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Hiroshima&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Ibaraki&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Jizzakh&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Kano&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Khánh Hòa&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Klaipeda&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Lagos&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Litoral&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Madhya Pradesh&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Manzini&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Matabeleland North&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Morelos&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Nariño&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Nigde&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Nouakchott&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Ontario&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Panevezys&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Piura&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Puebla&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Rajshahi&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Ruvuma&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Sancti Spíritus&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Scotland&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Sikasso&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;South Chungcheong&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Sulawesi Tengah&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Tanga&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Tianjin&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Ulsan&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Waikato&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Yaracuy&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Ziguinchor&quot;</bucket>
+            </map>
+            <map to='#e377c2'>
+              <bucket>&quot;Indiana&quot;</bucket>
+            </map>
+            <map to='#e377c2'>
+              <bucket>&quot;North Dakota&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Acre&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Al Minufiyah&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Andhra Pradesh&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Arbil&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Aswan&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Bahia&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Bashkortostan&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Bie&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Brandenburg&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Cabo Delgado&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Castile-La Mancha&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Chhattisgarh&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Cochabamba&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Dà Nang&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Edo&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Fars&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Gansu&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Greater Accra&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Gyor&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Hidalgo&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Hyogo&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Irkutsk&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Jilin&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Kanagawa&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Kerala&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Kinshasa&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;La Vega&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Limousin&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Lucerne&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Manipur&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Mashonaland West&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Mersin&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Mopti&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Nampula&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Niamey&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Northern Mindanao&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Oyo&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Pichincha&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Provence-Alpes-Côte d&apos;Azur&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Ra&apos;s Al Khaymah&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;San Luis Potosí&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Saxony&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Sicily&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Souss-Massa-Draâ&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Sud&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Tamaulipas&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Th? Dô Hà N?i&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Tyrol&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Van&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Voronezh&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Yamaguchi&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Zhambyl&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;&apos;Asir&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Al Hudaydah&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Amur&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ar Raqqah&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Azuay&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Bani Suwayf&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Benguela&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Borno&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Bursa&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Carabobo&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Chandigarh&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Ciego de Ávila&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Cortés&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Dire Dawa&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;East Flanders&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Estelí&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Fukuoka&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Grad Zagreb&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Gujarat&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Hebei&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Hubei&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Inhambane&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Jeju&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Kalimantan Selatan&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Katsina&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Kigali&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;La Libertad&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Liège&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Lower Normandy&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Manawatu-Wanganui&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Martinique&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Mehedinti&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Mono&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Nagasaki&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Odisha&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Osun&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Pernambuco&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Portuguesa&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Queensland&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Risaralda&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Samsun&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Sarawak&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Shizuoka&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Sofala&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Stavropol&apos;&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Tabora&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Telangana&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Trengganu&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Valcea&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Wellington&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Zamfara&quot;</bucket>
+            </map>
+            <map to='#f7b6d2'>
+              <bucket>&quot;Iowa&quot;</bucket>
+            </map>
+            <map to='#f7b6d2'>
+              <bucket>&quot;Ohio&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Aksaray&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Alibori&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Antofagasta&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Arkhangel&apos;sk&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Atsinanana&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Baluchistan&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Bechar&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Bitola&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Budapest&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Campania&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Centrale&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Chittagong&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Constantine&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Delhi&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Doukkala-Abda&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Erzurum&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Francisco Morazán&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Gilan&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Guárico&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Harare&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Hong Kong&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Ilam&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Jakarta&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Kabarole&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Karnataka&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Khmel&apos;nyts&apos;kyy&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Kuala Lumpur&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Las Tunas&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Lorestan&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Maradi&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Maranhão&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Mtwara&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Nord&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Nuevo León&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Orientale&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Pavlodar&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Plzen&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Qashqadaryo&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Rhône-Alpes&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Saint Catherine&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Santa Fe&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Setúbal&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Sirnak&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;South Khorasan&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Sumatera Utara&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Tartumaa&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Tocantins&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Usak&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Wales&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;West Flanders&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;Arkansas&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;Mississippi&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;Utah&quot;</bucket>
+            </map>
+            <map to='#ff9896'>
+              <bucket>&quot;District of Columbia&quot;</bucket>
+            </map>
+            <map to='#ff9896'>
+              <bucket>&quot;New Hampshire&quot;</bucket>
+            </map>
+            <map to='#ff9896'>
+              <bucket>&quot;Wisconsin&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Adana&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Amasya&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Annaba&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Arges&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Atlántico&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Balearic Islands&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Batna&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Biobio&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;British Columbia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Caldas&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Central&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Chimaltenango&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Colón&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Dakar&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Dnipropetrovs&apos;k&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;England&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Finland Proper&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Geneva&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Guanajuato&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Hajdu-Bihar&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Ho Chí Minh City&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Ibb&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Istanbul&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Jubbada Hoose&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Kocaeli&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Lagunes&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Littoral&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Madrid&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Maputo&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Matagalpa&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Michoacán&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Morogoro&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;National Capital&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Niger&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Nova Scotia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Opole&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Papua&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Plateau&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Punjab&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Razavi Khorasan&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Saarland&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Sanliurfa&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Selangor&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Silesia&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Sulawesi Tenggara&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tanger-Tétouan&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Timis&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Umbria&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Västra Götaland&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Yaroslavl&apos;&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Zinder&quot;</bucket>
+            </map>
+            <map to='#ffbb78'>
+              <bucket>&quot;California&quot;</bucket>
+            </map>
+            <map to='#ffbb78'>
+              <bucket>&quot;Missouri&quot;</bucket>
+            </map>
+            <map to='#ffbb78'>
+              <bucket>&quot;Vermont&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Abia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Al Iskandariyah&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Analamanga&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Ar Riyad&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Astana&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Babil&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Banská Bystrica&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Beni&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Botosani&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Busan&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Chaouia-Ouardigha&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Cienfuegos&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Corum&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Diyala&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Eastern&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Estuaire&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Galati&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Granada&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Gulu&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Hedmark&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Huehuetenango&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Inner Mongolia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Jerusalem&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Kalimantan Timur&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Kaunas&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Kigoma&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;La Pampa&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Liguria&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Lower Saxony&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Mandoul&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Mary&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Meknès-Tafilalet&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Monseñor Nouel&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Nairobi&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;North Holland&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Ogun&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Otago&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Pernik&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Potosí&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Querétaro&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Rivera&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;San Cristóbal&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Sardinia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Shkodër&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Sofiya-Grad&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Stockholm&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Tabuk&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Thuringia&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Trentino-Alto Adige&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Valenciana&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Vitsyebsk&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Woqooyi Galbeed&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Zanjan&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='orders' id='orders_3331B60722C349EC851C482DEEF4D95F'>
+            <properties context=''>
+              <relation connection='mysql.1j9xkub1hg7fqe1f11fhn0fq2ivy' name='orders' table='[orders]' type='table'>
+                <columns>
+                  <column datatype='date' date-parse-format='dd-MM-yyyy' name='Order Date' />
+                  <column datatype='date' date-parse-format='dd-MM-yyyy' name='Ship Date' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sales in US'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#e15759' fontname='Tableau Bold'>Sales in USA</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='orders (global_superstore_db)' name='federated.177mwb10bkgcb315f3cla0wowr42' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.177mwb10bkgcb315f3cla0wowr42'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column datatype='string' name='[Region]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Region]' derivation='None' name='[none:Region:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.177mwb10bkgcb315f3cla0wowr42].[none:Country:nk]'>
+            <groupfilter function='member' level='[none:Country:nk]' member='&quot;United States&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.177mwb10bkgcb315f3cla0wowr42].[none:Region:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Region:nk]' member='&quot;Africa&quot;' />
+              <groupfilter function='member' level='[none:Region:nk]' member='&quot;Canada&quot;' />
+              <groupfilter function='member' level='[none:Region:nk]' member='&quot;Caribbean&quot;' />
+              <groupfilter function='member' level='[none:Region:nk]' member='&quot;Central&quot;' />
+              <groupfilter function='member' level='[none:Region:nk]' member='&quot;Central Asia&quot;' />
+              <groupfilter function='member' level='[none:Region:nk]' member='&quot;East&quot;' />
+              <groupfilter function='member' level='[none:Region:nk]' member='&quot;EMEA&quot;' />
+              <groupfilter function='member' level='[none:Region:nk]' member='&quot;North&quot;' />
+              <groupfilter function='member' level='[none:Region:nk]' member='&quot;North Asia&quot;' />
+              <groupfilter function='member' level='[none:Region:nk]' member='&quot;Oceania&quot;' />
+              <groupfilter function='member' level='[none:Region:nk]' member='&quot;South&quot;' />
+              <groupfilter function='member' level='[none:Region:nk]' member='&quot;Southeast Asia&quot;' />
+              <groupfilter function='member' level='[none:Region:nk]' member='&quot;West&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.177mwb10bkgcb315f3cla0wowr42].[none:Region:nk]</column>
+            <column>[federated.177mwb10bkgcb315f3cla0wowr42].[none:Country:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.177mwb10bkgcb315f3cla0wowr42].[Longitude (generated)]' field-type='quantitative' max='-7235110.9082115265' min='-15127800.554030199' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.177mwb10bkgcb315f3cla0wowr42].[Latitude (generated)]' field-type='quantitative' max='8138926.0693806605' min='-98723.821128757671' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.177mwb10bkgcb315f3cla0wowr42].[sum:Sales:qk]' palette='sunrise_sunset_diverging_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='normal' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <text column='[federated.177mwb10bkgcb315f3cla0wowr42].[sum:Sales:qk]' />
+              <lod column='[federated.177mwb10bkgcb315f3cla0wowr42].[none:Country:nk]' />
+              <lod column='[federated.177mwb10bkgcb315f3cla0wowr42].[none:State:nk]' />
+              <color column='[federated.177mwb10bkgcb315f3cla0wowr42].[sum:Sales:qk]' />
+              <geometry column='[federated.177mwb10bkgcb315f3cla0wowr42].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.177mwb10bkgcb315f3cla0wowr42].[Latitude (generated)]</rows>
+        <cols>[federated.177mwb10bkgcb315f3cla0wowr42].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{97A68D98-EA30-4258-979E-CFB8C89356D1}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sales in US'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.177mwb10bkgcb315f3cla0wowr42].[sum:Sales:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.177mwb10bkgcb315f3cla0wowr42].[none:Country:nk]</field>
+            <field>[federated.177mwb10bkgcb315f3cla0wowr42].[none:Region:nk]</field>
+            <field>[federated.177mwb10bkgcb315f3cla0wowr42].[none:State:nk]</field>
+            <field>[federated.177mwb10bkgcb315f3cla0wowr42].[sum:Sales:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{25367EFC-370B-48C7-8779-768B0EFDA7F9}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sales in US' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

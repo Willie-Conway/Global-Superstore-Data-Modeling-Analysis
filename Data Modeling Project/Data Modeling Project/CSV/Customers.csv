@@ -1,0 +1,107 @@
+"Customer ID","Customer Name",Age,"Marital Status",Gender,Profession,"Income Level","Age Band"
+AB-10150,"Aimee Bixby",29,Single,Female,"Marketing Manager",High,18-29
+AB-255,"Alejandro Ballentine",29,Single,Male,"Home Office",Medium,30-44
+AB-46630,"Ann Blume",45,Married,Female,Corporate,Medium,30-44
+AH-47905,"Aaron Hawkins",38,Married,Male,Corporate,High,30-44
+AJ-28879,"Anthony Jacobs",28,Single,Male,Corporate,Low,18-29
+AM-10705,"Anne McFarland",32,Single,Female,Consumer,Critical,30-44
+AP-24341,"Arthur Prichep",34,Single,Male,Consumer,Medium,30-44
+AR-10540,"Andy Reiter",40,Married,Male,Consumer,High,30-44
+AS-10225,"Alan Schoenberger",29,Single,Male,"Sales Associate",High,18-29
+BE-11410,"Bobby Elias",45,Married,Male,"Web Developer",High,30-44
+BF-29272,"Barry Franz",32,Married,Male,"Home Office",High,30-44
+BK-11260,"Berenike Kampe",29,Single,Female,Consumer,Medium,30-44
+BP-13779,"Ben Peterman",38,Married,Male,Corporate,High,30-44
+BP-22999,"Benjamin Patterson",24,Single,Male,Consumer,Medium,18-29
+BS-10648,"Bill Shonely",39,Married,Male,Corporate,High,30-44
+BW-1065,"Barry Weirich",32,Single,Male,"Research Scientist",High,30-44
+CM-12385,"Christopher Martinez",42,Married,Male,"Product Manager",Medium,30-44
+CR-12730,"Craig Reiter",28,Single,Male,Engineer,Low,20-30
+CR-25330,"Craig Reiter",45,Married,Female,Consumer,Low,30-44
+CS-11845,"Cari Sayre",34,Single,Female,"HR Manager",Medium,30-44
+CS-12460,"Chuck Sachs",29,Single,Male,"Data Analyst",High,18-29
+DB-13405,"Denny Blanton",29,Single,Male,"Marketing Specialist",High,18-29
+DG-42336,"Deirdre Greer",38,Married,Female,Corporate,Medium,30-44
+DK-13090,"Dave Kipp",41,Married,Male,"IT Support",High,30-44
+DL-28046,"Dan Lawera",37,Single,Male,Consumer,Medium,30-44
+DM-36423,"Darrin Martin",29,Single,Male,Consumer,Medium,18-29
+DP-21286,"Dave Poirier",36,Married,Male,Corporate,Medium,30-44
+DP-3105,"Dave Poirier",36,Married,Male,Corporate,Medium,30-44
+DW-3480,"Dianna Wilson",36,Married,Female,"Business Analyst",Medium,30-44
+EB-11645,"Eugene Barchas",31,Single,Male,Consumer,Medium,30-44
+EB-13847,"Ellis Ballard",40,Married,Male,Corporate,High,30-44
+EM-14200,"Evan Minnotte",27,Single,Male,"Customer Service Rep",Medium,18-29
+FH-32941,"Fred Hopkins",42,Married,Male,Corporate,High,30-44
+GM-34577,"Greg Maxwell",39,Married,Male,Corporate,High,30-44
+GP-14740,"Guy Phonely",34,Married,Male,Corporate,Critical,30-44
+GP-29601,"Guy Phonely",29,Single,Male,Corporate,Medium,18-29
+GT-16681,"Greg Tran",28,Single,Male,Consumer,High,18-29
+GT-31980,"Grant Thornton",45,Married,Male,Corporate,High,30-44
+HG-14845,"Harry Greene",28,Single,Male,Consumer,High,18-29
+HR-38198,"Harold Ryan",40,Married,Male,Corporate,High,30-44
+JB-16000,"Joy Bell-",30,Single,Female,Consumer,Low,30-44
+JB-21316,"Joy Bell",26,Single,Female,Consumer,Medium,18-29
+JD-15895,"Jonathan Doherty",39,Married,Male,"Operations Manager",High,30-44
+JE-32735,"Joel Eaton",33,Single,Male,Consumer,High,30-44
+JH-15820,"John Huston",40,Married,Male,"Financial Analyst",High,30-44
+JH-40936,"Joseph Holt",32,Single,Male,Consumer,Medium,30-44
+JH-6550,"John Huston",30,Married,Male,Consumer,Medium,30-44
+JK-21586,"Jason Klamczynski",42,Married,Male,Corporate,High,30-44
+JM-15250,"Janet Martin",31,Single,Female,Consumer,High,30-44
+JM-15655,"Jim Mitchum",50,Single,Male,Sales,High,Middle-Aged
+JM-22732,"Jim Mitchum",29,Single,Male,Corporate,Medium,18-29
+JR-16210,"Justin Ritter",42,Single,Male,Executive,Medium,40-50
+JR-26341,"Justin Ritter",28,Single,Male,Corporate,High,18-29
+JS-22096,"Jim Sink",33,Single,Male,Corporate,Medium,30-44
+JW-15220,"Jane Waco",52,Married,Female,Executive,Medium,Middle-Aged
+JW-40155,"Jane Waco",50,Married,Female,Corporate,High,45-59
+KC-16675,"Kimberly Carter",45,Married,Female,"Graphic Designer",High,30-44
+KD-16495,"Keith Dawkins",50,Married,Male,"Project Manager",Medium,45-59
+KF-37311,"Karen Ferguson",29,Married,Female,"Home Office",High,30-44
+KM-13524,"Katherine Murray",34,Single,Female,"Home Office",Medium,30-44
+KM-16375,"Katherine Murray",30,Single,Female,Manager,Medium,Adult
+LA-16780,"Laura Armstrong",35,Married,Female,"Content Writer",High,30-44
+LB-13528,"Laurel Beltran",36,Married,Female,"Home Office",High,30-44
+LC-40046,"Lena Creighton",28,Single,Female,Consumer,High,18-29
+LW-16990,"Lindsay Williams",42,Married,Female,Corporate,Critical,30-44
+MB-18085,"Mick Brown",37,Married,Male,Consultant,High,Adult
+MB-31192,"Mick Brown",42,Married,Male,Consumer,Low,30-44
+MM-45794,"Magdelene Morse",47,Divorced,Female,Consumer,Medium,45-59
+MS-17980,"Michael Stewart",33,Single,Male,"Sales Executive",Medium,30-44
+MW-23499,"Mitch Webber",36,Married,Male,Consumer,High,30-44
+NC-18625,"Noah Childs",27,Single,Male,Corporate,High,18-29
+NF-18385,"Natalie Fritzler",29,Single,Female,Consumer,High,30-44
+NP-1570,"Naresj Patel",30,Single,Male,Consumer,Medium,18-29
+NP-32543,"Nora Preis",40,Single,Female,Consumer,High,30-44
+PB-30190,"Phillip Breyer",45,Married,Male,Corporate,Low,30-44
+PB-30191,"Phillip Breyer",35,Married,Male,Corporate,Medium,30-44
+PF-27704,"Peter Fuller",41,Married,Male,Consumer,Medium,30-44
+PJ-12069,"Patrick Jones",26,Single,Male,Corporate,Medium,18-29
+PM-18940,"Paul MacIntyre",33,Married,Male,Consumer,Critical,30-44
+PO-15380,"Patrick O'Donnell",30,Single,Male,Consumer,High,18-29
+PO-18850,"Patrick O'Brill",35,Single,Male,"Software Engineer",Medium,30-44
+RH-19495,"Rick Hansen",35,Married,Male,Manager,High,30-40
+RH-32298,"Rick Hansen",35,Married,Male,Consumer,Medium,30-44
+RH-47221,"Rick Hansen",45,Married,Male,Consumer,High,30-44
+RH-49463,"Ritsa Hightower",37,Single,Female,Consumer,High,30-44
+RH-9495,"Rick Hansen",45,Married,Male,Engineer,Medium,Middle-Aged
+RM-19375,"Raymond Messe",35,Single,Male,Consumer,Critical,30-44
+RP-19270,"Rachel Payne",35,Married,Female,Corporate,High,30-44
+RR-220,"Rick Reed",41,Married,Male,Corporate,Medium,30-44
+SC-20695,"Steve Chapman",35,Married,Male,Corporate,High,30-44
+SC-35395,"Sanjit Chand",29,Single,Male,Consumer,Medium,18-29
+SG-29047,"Sheri Gordon",33,Single,Female,Consumer,Medium,30-44
+SR-31784,"Sue Ann Reed",28,Single,Female,Consumer,Medium,18-29
+ST-20530,"Shui Tom",30,Single,Male,"Software Developer",Medium,30-44
+SV-10815,"Stuart Van",36,Married,Male,Corporate,Critical,30-44
+SW-28701,"Scott Williamson",29,Single,Male,Consumer,Medium,18-29
+SZ-20035,"Sam Zeldin",36,Married,Male,"Network Engineer",Medium,30-44
+TB-36178,"Thomas Boland",55,Married,Male,Corporate,High,45-59
+TG-48360,"Trudy Glocke",35,Single,Female,Consumer,Medium,30-44
+TP-21415,"Tom Prescott",31,Single,Male,Consumer,Medium,30-44
+TS-21340,"Toby Swindell",29,Single,Male,Designer,Low,"Young Adult"
+TS-30570,"Toby Swindell",36,Married,Male,Consumer,Medium,30-44
+VD-3484,"Valerie Dominguez",26,Single,Female,Consumer,Medium,18-29
+VF-4132,"Vicky Freymann",30,Single,Female,"Home Office",Medium,18-29
+VG-25795,"Vivek Grady",41,Married,Male,Corporate,Medium,30-44
+ZC-15953,"Zuschuss Carroll",35,Married,Male,Consumer,Medium,30-44

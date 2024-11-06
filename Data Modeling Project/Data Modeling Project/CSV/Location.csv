@@ -1,0 +1,101 @@
+"Location ID",Continent,Country,City,State,"Postal Code",Region
+1,"North America","United States","New York City","New York",10024,East
+2,Australia,Australia,Wollongong,"New South Wales",,APAC
+3,Australia,Australia,Brisbane,Queensland,,APAC
+4,Europe,Germany,Berlin,Berlin,,EU
+5,Africa,Senegal,Dakar,Dakar,,Africa
+6,Australia,Australia,Sydney,"New South Wales",,APAC
+7,Oceania,"New Zealand",Porirua,Wellington,,APAC
+8,Oceania,"New Zealand",Hamilton,Waikato,,APAC
+9,"North America","United States",Sacramento,California,,West
+10,"North America","United States",Concord,"North Carolina",,South
+11,"North America","United States",Concord,"North Carolina",28027,South
+12,"North America","United States",Alexandria,Virginia,22304,South
+13,Asia,Afghanistan,Kabul,Kabul,,"Central Asia"
+14,Asia,"Saudi Arabia",Jizan,Jizan,,EMEA
+15,"South America",Brazil,Toledo,Parana,,South
+16,Asia,China,Mudanjiang,Heilongjiang,,"North Asia"
+17,Europe,France,Paris,Ile-de-France,,Central
+18,"North America","United States",Henderson,Kentucky,42420,South
+19,Europe,Italy,Prato,Tuscany,,South
+20,Australia,Australia,Townsville,Queensland,,Oceania
+21,Africa,Tanzania,Uvinza,Kigoma,,Africa
+22,Europe,Poland,Bytom,Silesia,,EMEA
+23,"North America","United States",Chicago,Illinois,60610,Central
+24,Asia,China,Suzhou,Anhui,,"North Asia"
+25,Europe,"United Kingdom",Edinburgh,Scotland,,North
+26,"North America",Mexico,Juárez,Chihuahua,,North
+27,"Latin America","El Salvador",Soyapango,"San Salvador",,Central
+28,Asia,Taiwan,Taipei,"Taipei City",,"North Asia"
+29,Europe,Germany,Leipzig,Saxony,,Central
+30,"North America","United States","Los Angeles",California,90008,West
+31,Asia,India,Surat,Gujarat,,"Central Asia"
+32,"Latin America","Dominican Republic","Santo Domingo","Santo Domingo",,Caribbean
+33,Europe,France,Saint-Brieuc,Brittany,,Central
+34,"North America","United States",Amarillo,Texas,79109,Central
+35,Australia,Australia,"Gold Coast",Queensland,,Oceania
+36,"North America","United States",Fresno,California,93727,West
+37,Africa,"Democratic Republic of the Congo",Kamina,Katanga,,Africa
+38,"North America","United States","New York City","New York",10009,East
+39,"North America","United States",Burlington,"North Carolina",27217,South
+40,Europe,"United Kingdom",Stockton-on-Tees,England,,North
+41,Australia,Australia,Brisbane,Queensland,,Oceania
+42,Asia,Indonesia,Mataram,"Nusa Tenggara Barat",,"Southeast Asia"
+43,Asia,India,Gorakhpur,Haryana,,"Central Asia"
+44,Asia,India,Thiruvananthapuram,Kerala,,"Central Asia"
+45,Europe,"United Kingdom",Huddersfield,England,,North
+46,Europe,Germany,Berlin,Berlin,,Central
+47,"North America","United States",Minneapolis,Minnesota,55407,Central
+48,Europe,France,Montreuil,Ile-de-France,,Central
+49,Asia,China,Shouguang,Shandong,,"North Asia"
+50,Asia,India,Jamshedpur,Jharkhand,,"Central Asia"
+51,"Latin America",Uruguay,Paysandú,Paysandú,,South
+52,"North America","United States","New York City","New York",10009,East
+53,Asia,Iran,Behshahr,Mazandaran,,EMEA
+54,"North America","United States","Huntington Beach",California,92646,West
+55,Asia,Taiwan,Taipei,"Taipei City",,"North Asia"
+56,Africa,Mozambique,Maputo,"Cidade De Maputo",,Africa
+57,Asia,India,Bhopal,"Madhya Pradesh",,"Central Asia"
+58,"North America","United States",Seattle,Washington,98115,West
+59,Asia,India,Delhi,Delhi,,"Central Asia"
+60,Australia,Australia,Geraldton,"Western Australia",,Oceania
+61,"North America","United States",Tallahassee,Florida,32303,South
+62,Asia,Bangladesh,Dhaka,Dhaka,,"Central Asia"
+63,"North America","United States","New York City","New York",10024,East
+64,Europe,Germany,Munster,"Lower Saxony",,Central
+65,Europe,Germany,Celle,"Lower Saxony",,Central
+66,Asia,China,Wuxi,Jiangsu,,"North Asia"
+67,"North America","United States",Richmond,Virginia,23223,South
+68,Europe,Spain,Seville,Andalucía,,South
+69,Asia,India,Raipur,Uttarakhand,,"Central Asia"
+70,"Latin America",Mexico,"Gómez Palacio",Durango,,North
+71,EMEA,Ukraine,Kharkiv,Kharkiv,61000,EMEA
+72,APAC,China,Jinan,Shandong,250000,"North Asia"
+73,LATAM,Nicaragua,Chinandega,Chinandega,21000,Central
+74,Africa,"Democratic Republic of the Congo",Kananga,Kasai-Occidental,12000,Africa
+75,APAC,Indonesia,Palembang,"Sumatera Selatan",30111,"Southeast Asia"
+76,Europe,"United Kingdom",London,England,EC1A,North
+77,APAC,Australia,Melbourne,Victoria,3000,Oceania
+78,"North America","United States",Atlanta,Georgia,30301,South
+79,Europe,Germany,Duisburg,"North Rhine-Westphalia",47051,Central
+80,APAC,China,Nanchong,Sichuan,637000,"North Asia"
+81,APAC,India,Naihati,"West Bengal",743165,"Central Asia"
+82,Europe,France,Lille,Nord-Pas-de-Calais,59000,Central
+83,Africa,Morocco,Meknes,Meknès-Tafilalet,50000,Africa
+84,"North America","United States",Jackson,Michigan,49201,Central
+85,"North America","United States",Philadelphia,Pennsylvania,19101,East
+86,Europe,Germany,Krefeld,"North Rhine-Westphalia",47800,Central
+87,APAC,Indonesia,Bandung,"Jawa Barat",40111,"Southeast Asia"
+88,Africa,Morocco,Casablanca,"Grand Casablanca",20000,Africa
+89,APAC,Australia,Sydney,"New South Wales",2000,Oceania
+90,APAC,Bangladesh,Tongi,Dhaka,12345,"Central Asia"
+91,APAC,China,Suzhou,Anhui,215000,"North Asia"
+92,APAC,India,Delhi,Delhi,110001,"Central Asia"
+93,"North America","United States",Henderson,Nevada,89014,West
+94,Europe,France,Paris,Ile-de-France,75001,Central
+95,Canada,Canada,Montréal,Quebec,H1A,Canada
+96,APAC,Philippines,Manila,"National Capital",1000,"Southeast Asia"
+97,APAC,Australia,Newcastle,"New South Wales",2300,Oceania
+98,Europe,Austria,Graz,Styria,8010,Central
+99,APAC,Australia,Nowra,"New South Wales",2541,Oceania
+100,Europe,France,Boulogne-Billancourt,Ile-de-France,92100,Central
