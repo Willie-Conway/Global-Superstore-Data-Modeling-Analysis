@@ -129,7 +129,7 @@ Interactivity was enabled by using filters. For example, clicking on a specific 
 
 <div>
     <a href="https://www.loom.com/share/e74c2e9d68dc461a92feec2ad3997318">
-      <p>Loom Message - 6 November 2024 - Watch Video</p>
+      <p>Global Super Store - Interactive Dashboard - Watch Video</p>
     </a>
     <a href="https://www.loom.com/share/e74c2e9d68dc461a92feec2ad3997318">
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/e74c2e9d68dc461a92feec2ad3997318-a22232212d972304-full-play.gif">
