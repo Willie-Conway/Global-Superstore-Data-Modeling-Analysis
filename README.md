@@ -44,8 +44,9 @@ Once the ER diagram was designed, the next step was to implement the data model 
 
 The database schema was successfully created, and data could be imported and analyzed.
 
-#### New Database Schema Example:
-*Include a screenshot or description of your new schema* 🔧
+#### New Database Schema🔧:
+
+![Data Model](https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/e45ff7c59a5656bdafc3684bd06aad7cd495aadd/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Screenshot%202024-09-22%20225420.png)
 
 ---
 
