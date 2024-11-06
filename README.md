@@ -79,6 +79,9 @@ This map chart gave a visual representation of sales distribution across states,
 #### Map Chart Example:
 *Include a screenshot of the map chart* 🌍
 
+![Map chart](https://github.com/Willie-Conway/Data-Modeling-and-Analysis-Project/blob/fb93b9f509e02ae3d1b09d69860fd745197bb707/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Screenshot%202024-09-22%20223609.png)
+
+
 ---
 
 ### Step 5: Create a Bubble Chart in Tableau 🟠
