@@ -2,7 +2,7 @@
 
 <p float="left">
     <img src="https://images.credly.com/size/340x340/images/024324c7-4d4c-4008-8db7-01e0d4222126/image.png" width="300" />
-    <img src="https://github.com/Willie-Conway/Global-Superstore-Data-Modeling-Analysis-Project/blob/735361e72f34e418c61ba4aaf19688e1d85cf2ea/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Global%20Superstore.jpg" width="300" />
+    <img src="https://github.com/Willie-Conway/Global-Superstore-Data-Modeling-Analysis-Project/blob/2df0f711740b64bd36b15d1eeddbb0b02e27a607/Data%20Modeling%20Project/Data%20Modeling%20Project/Screenshots/Global%20Superstore.png" width="300" />
 </p>
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
